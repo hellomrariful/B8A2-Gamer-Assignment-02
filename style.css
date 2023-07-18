@@ -1,3 +1,13 @@
-h1{
-    color: rgb(40, 239, 5);
+/* Google Font Added Here */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* Universal Tags */
+*{
+    box-sizing: border-box;
+}
+
+/* Common Shared Styles */
+
+body{
+    font-family: 'Work Sans', sans-serif;
 }
