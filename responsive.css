@@ -190,8 +190,24 @@
    
    /* Action Game Section Start */
 
-
-
+   .action-game-row-5 {
+      display: grid;
+      gap: 0px;
+      grid-template-rows: repeat(3, 1fr);
+  }
+  
+  .action-game-row-4 {
+      display: grid;
+      grid-template-rows: repeat(3, 1fr) ;
+      gap: 10px;
+      padding-top: 30px;
+      padding-bottom: 130px;
+  
+  }
+  
+  .action-title{
+   font-size: 10px;
+  }
    /* Action Game Section End */
 
 
