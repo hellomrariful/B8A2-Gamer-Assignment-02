@@ -22,6 +22,33 @@
    .banner-description{
       padding-bottom: 50px;
    }
+
+   /* banner end */
+
+/* online game section start */
+
+.online-game-container{
+   grid-template-columns: repeat(1, 1fr);
+   padding: 0px;
+   padding-top: 120px;
+ }
+ 
+ .online-game-section{
+ grid-template-columns: repeat(2, 1fr);
+ gap: 0px;
+ }
+ 
+ .online-game img{
+ margin-top: 30px;
+ }
+ 
+ /* instant game section start */
+
+
+/* instant game section end */
+
+
+
 }
 
 
@@ -76,4 +103,47 @@
 .banner-description{
    padding-bottom: 40px;
 }
+/* banner end */
+
+/* online game section start */
+
+.online-game-container{
+  grid-template-columns: repeat(1, 1fr);
+  padding: 0px;
+  padding-top: 120px;
 }
+
+.online-game-section{
+grid-template-columns: repeat(1, 1fr);
+gap: 0px;
+}
+
+.online-game-container p{
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+.online-game img{
+margin-top: 30px;
+}
+
+}
+
+/* online game section end */
+
+/* instant game section start */
+
+.instant-game-container {
+   flex-direction: column-reverse;
+   padding-top: 120px;
+}
+
+.instant-img-01{
+width: 50%;
+}
+
+.instant-img-02{
+   width: 50%;
+}
+
+/* instant game section end */
