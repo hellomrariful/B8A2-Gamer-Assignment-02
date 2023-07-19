@@ -424,7 +424,7 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 10
 
 .action-game-row-5 {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 30px;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -434,7 +434,7 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 10
 
 .action-game-row-4 {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 30px;
   padding-top: 30px;
   padding-bottom: 30px;
