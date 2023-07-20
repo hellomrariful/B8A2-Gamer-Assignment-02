@@ -18,6 +18,11 @@
 		align-items: center;
 	}
 
+	.nav-container {
+		flex-direction: row;
+		gap: 20px;
+	}
+
 	.logo {
 		gap: 8px;
 	}
@@ -30,17 +35,11 @@
 		width: 65px;
 	}
 
-	.nav-container {
-		flex-direction: row;
-		gap: 20px;
-	}
-
 	.nav-links a {
 		font-size: 1rem;
 	}
 
 	.nav-links:last-child {
-		padding: 4px 10px;
 		border-radius: 4px;
 	}
 
@@ -90,13 +89,13 @@
 		margin-bottom: 20px;
 	}
 
+	.banner-description p {
+		font-size: 1rem;
+	}
+
 	.banner-description>div {
 		gap: 5px;
 		margin-bottom: 10px;
-	}
-
-	.banner-description p {
-		font-size: 1rem;
 	}
 
 	.banner-description img {
@@ -158,7 +157,7 @@
 		line-height: 30px;
 	}
 
-	.unleash-text {
+	.purpose-title {
 		font-size: 2rem;
 		line-height: 40px;
 	}
@@ -261,7 +260,7 @@
 		gap: 10px;
 		padding: 5px 15px 5px 5px;
 		border-radius: 50px;
-		border: 1px solid var(--white);
+		border: 1px solid #fff;
 	}
 
 	.game-button-item>img {
@@ -275,7 +274,7 @@
 	}
 
 	.game-button-item:hover {
-		border: 1px solid var(--pink-primary);
+		border: 1px solid #ff42a5;
 	}
 
 	/* footer part */
@@ -308,7 +307,7 @@
 
 	.footer-socials i {
 		font-size: 18px;
-		color: var(--white);
+		color: #fff;
 	}
 
 	.footer-socials img {
@@ -505,7 +504,7 @@
 		line-height: 20px;
 	}
 
-	.unleash-text {
+	.purpose-title {
 		font-size: 1.3rem;
 		line-height: 25px;
 	}
@@ -608,7 +607,7 @@
 		gap: 10px;
 		padding: 4px 15px 4px 4px;
 		border-radius: 50px;
-		border: 1px solid var(--white);
+		border: 1px solid #fff;
 	}
 
 	.game-button-item>img {
@@ -622,7 +621,7 @@
 	}
 
 	.game-button-item:hover {
-		border: 1px solid var(--pink-primary);
+		border: 1px solid #ff42a5;
 	}
 
 	/* footer part */
@@ -655,7 +654,7 @@
 
 	.footer-socials i {
 		font-size: 18px;
-		color: var(--white);
+		color: #fff;
 	}
 
 	.footer-socials img {
@@ -850,7 +849,7 @@
 		line-height: 20px;
 	}
 
-	.unleash-text {
+	.purpose-title {
 		font-size: 0.9rem;
 		line-height: 25px;
 	}
@@ -954,7 +953,7 @@
 		gap: 5px;
 		padding: 2px 6px 2px 2px;
 		border-radius: 50px;
-		border: 1px solid var(--white);
+		border: 1px solid #fff;
 	}
 
 	.game-button-item>img {
@@ -968,7 +967,7 @@
 	}
 
 	.game-button-item:hover {
-		border: 1px solid var(--pink-primary);
+		border: 1px solid #ff42a5;
 	}
 
 	/* footer part */
@@ -1001,7 +1000,7 @@
 
 	.footer-socials i {
 		font-size: 15px;
-		color: var(--white);
+		color: #fff;
 	}
 
 	.footer-socials img {
