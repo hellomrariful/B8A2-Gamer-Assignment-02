@@ -29,6 +29,17 @@
   color: #ff42a5;
 }
 
+.btn {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 48px;
+  padding: 21px 40px;
+  border: none;
+  cursor: pointer;
+}
+
 /* navbar start */
 
 .logo {
@@ -41,7 +52,7 @@
 
 .logo-text {
   color: #0b0223;
-  font-size: 2.8125rem;
+  font-size: 2.91rem;
   font-weight: 700;
 }
 
@@ -69,7 +80,7 @@
 .nav-links a {
   text-decoration: none;
   color: #3c354f;
-  font-size: 1.125rem;
+  font-size: 1.12rem;
   font-weight: 500;
 }
 
@@ -107,22 +118,11 @@
 
 /* banner start */
 
-.btn {
-  color: #fff;
-  font-size: 1.25rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  border-radius: 48px;
-  padding: 21px 40px;
-  border: none;
-  cursor: pointer;
-}
-
-.pink-back {
+.btn-pink {
   background: #ff42a5;
 }
 
-.blue-back {
+.btn-blue {
   background: #4ec5f7;
 }
 
@@ -152,15 +152,15 @@
   max-width: 365px;
 }
 
-.banner-content>h2 {
+.banner-content h2 {
   color: #0b0223;
   font-size: 3rem;
   font-weight: 600;
   text-transform: uppercase;
 }
 
-.banner-content>h1 {
-  font-size: 5.9375rem;
+.banner-content h1 {
+  font-size: 5.97rem;
   font-weight: 800;
   text-transform: uppercase;
   margin-bottom: 24px;
@@ -199,7 +199,6 @@
 
 .banner-img {
   width: 100%;
-
 }
 
 /* banner end */
@@ -247,7 +246,7 @@
 
 .we-gamers-description {
   color: #534c64;
-  font-size: 1.125rem;
+  font-size: 1.115rem;
   font-weight: 400;
   line-height: 30px;
   max-width: 520px;
@@ -280,16 +279,16 @@
   margin: 120px 0;
 }
 
-.online>h2 {
+.online h2 {
   color: #0b0223;
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 16px;
 }
 
-.online>p {
+.online p {
   color: #534c64;
-  font-size: 1.125rem;
+  font-size: 1.115rem;
   font-weight: 400;
   line-height: 30px;
   margin-bottom: 48px;
@@ -343,23 +342,23 @@
   position: absolute;
   top: 0;
   bottom: 0;
-  transition: opacity 0.5s ease;
+  transition: opacity 0.3s ease;
 }
 
-.online-overlay>i {
+.online-overlay i {
   background: transparent;
   color: #fff;
   font-size: 48px;
   margin-bottom: 16px;
 }
 
-.online-overlay>p {
+.online-overlay p {
   font-size: 1.25rem;
   font-weight: 600;
   color: #ff42a5;
 }
 
-.online-item>p {
+.online-item p {
   color: #534c64;
   font-size: 20px;
   font-weight: 500;
@@ -401,16 +400,16 @@
   text-align: right;
 }
 
-.play-content>h2 {
+.play-content h2 {
   font-size: 3rem;
   font-weight: 700;
   line-height: 60px;
   margin-bottom: 24px;
 }
 
-.play-content>p {
+.play-content p {
   color: #534c64;
-  font-size: 1.125rem;
+  font-size: 1.1rem;
   font-weight: 400;
   line-height: 30px;
 }
@@ -473,7 +472,7 @@
   border: 2px solid #ff42a5;
 }
 
-.game-button-item:hover>p {
+.game-button-item:hover p {
   color: #ff42a5;
 }
 
@@ -482,12 +481,12 @@
   height: 60px;
 }
 
-.game-button-item>p {
+.game-button-item p {
   color: #0b0223;
   font-size: 19px;
   font-weight: 600;
   min-width: 137px;
-  transition: all 0.4s ease;
+  transition: all 0.3s ease;
 }
 
 /* our all game start*/
@@ -508,7 +507,7 @@
   align-items: center;
 }
 
-.footer-logo>h2 {
+.footer-logo h2 {
   color: #fff;
 }
 
@@ -562,7 +561,7 @@
   width: 55px;
 }
 
-.footer-legal-links {
+.footer-links {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -571,18 +570,18 @@
   margin-bottom: 28px;
 }
 
-.footer-legal-links li {
+.footer-links li {
   list-style: none;
 }
 
-.footer-legal-links li a {
+.footer-links li a {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
   font-size: 1rem;
   font-weight: 500;
 }
 
-.footer-copyright {
+.footer-copyright-part {
   color: rgba(255, 255, 255, 0.6);
   text-align: center;
   font-size: 1rem;
