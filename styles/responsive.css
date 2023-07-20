@@ -30,7 +30,7 @@
 		width: 65px;
 	}
 
-	.nav-links-container {
+	.nav-container {
 		flex-direction: row;
 		gap: 20px;
 	}
@@ -52,7 +52,7 @@
 		font-size: 25px;
 	}
 
-	.tiktok-icon {
+	.tt-icon {
 		width: 20px;
 	}
 
@@ -114,51 +114,51 @@
 
 	/* we are gamers part */
 
-	.we-are-container {
+	.we-gamers-container {
 		padding: 40px;
 		flex-direction: column;
 		margin: 40px 0px;
 	}
 
-	.we-are-img-container {
+	.we-gamers-img-container {
 		flex: none;
 		margin: 0 40px;
 	}
 
-	.we-are-content-container {
+	.we-gamers-content-container {
 		max-width: 540px;
 		flex: none;
 	}
 
-	.we-are-content {
+	.we-gamers-content {
 		align-items: center;
 		text-align: center;
 		gap: 10px;
 	}
 
-	.we-are-title {
+	.we-gamers-title {
 		font-size: 3.5rem;
 		margin-bottom: 9px;
 		margin-top: 15px;
 	}
 
-	.we-are-description {
+	.we-gamers-description {
 		font-size: 1rem;
 		line-height: 22px;
 		max-width: 550px;
 		margin-bottom: 15px;
 	}
 
-	.we-are-content button {
+	.we-gamers-content button {
 		margin-bottom: 15px;
 	}
 
-	.we-are-purpose {
+	.we-gamers-purpose {
 		font-size: 1.3rem;
 		line-height: 30px;
 	}
 
-	.unleash {
+	.unleash-text {
 		font-size: 2rem;
 		line-height: 40px;
 	}
@@ -181,7 +181,7 @@
 		margin-bottom: 70px;
 	}
 
-	.online-item-container {
+	.online-play-container {
 		flex-direction: row;
 		gap: 30px;
 	}
@@ -377,7 +377,7 @@
 		width: 45px;
 	}
 
-	.nav-links-container {
+	.nav-container {
 		flex-direction: row;
 		gap: 20px;
 	}
@@ -399,7 +399,7 @@
 		font-size: 20px;
 	}
 
-	.tiktok-icon {
+	.tt-icon {
 		width: 15px;
 	}
 
@@ -461,51 +461,51 @@
 
 	/* we are gamers part */
 
-	.we-are-container {
+	.we-gamers-container {
 		padding: 40px;
 		flex-direction: column;
 		margin: 40px 0px;
 	}
 
-	.we-are-img-container {
+	.we-gamers-img-container {
 		flex: none;
 		margin: 0 40px;
 	}
 
-	.we-are-content-container {
+	.we-gamers-content-container {
 		max-width: 450px;
 		flex: none;
 	}
 
-	.we-are-content {
+	.we-gamers-content {
 		align-items: center;
 		text-align: center;
 		gap: 10px;
 	}
 
-	.we-are-title {
+	.we-gamers-title {
 		font-size: 2rem;
 		margin-bottom: 9px;
 		margin-top: 15px;
 	}
 
-	.we-are-description {
+	.we-gamers-description {
 		font-size: 0.7rem;
 		line-height: 16px;
 		max-width: 520px;
 		margin-bottom: 15px;
 	}
 
-	.we-are-content button {
+	.we-gamers-content button {
 		margin-bottom: 15px;
 	}
 
-	.we-are-purpose {
+	.we-gamers-purpose {
 		font-size: 0.9rem;
 		line-height: 20px;
 	}
 
-	.unleash {
+	.unleash-text {
 		font-size: 1.3rem;
 		line-height: 25px;
 	}
@@ -528,7 +528,7 @@
 		margin-bottom: 40px;
 	}
 
-	.online-item-container {
+	.online-play-container {
 		flex-direction: row;
 		gap: 30px;
 	}
@@ -722,7 +722,7 @@
 		width: 40px;
 	}
 
-	.nav-links-container {
+	.nav-container {
 		flex-direction: column;
 		gap: 6px;
 	}
@@ -745,7 +745,7 @@
 		font-size: 20px;
 	}
 
-	.tiktok-icon {
+	.tt-icon {
 		width: 15px;
 	}
 
@@ -807,50 +807,50 @@
 
 	/* we are gamers part */
 
-	.we-are-container {
+	.we-gamers-container {
 		padding: 10px;
 		flex-direction: column;
 		margin: 40px 0px;
 	}
 
-	.we-are-img-container {
+	.we-gamers-img-container {
 		flex: none;
 		margin: 0 40px;
 	}
 
-	.we-are-content-container {
+	.we-gamers-content-container {
 		max-width: 250px;
 		flex: none;
 	}
 
-	.we-are-content {
+	.we-gamers-content {
 		align-items: center;
 		text-align: center;
 		gap: 10px;
 	}
 
-	.we-are-title {
+	.we-gamers-title {
 		font-size: 1.3rem;
 		margin-bottom: 9px;
 	}
 
-	.we-are-description {
+	.we-gamers-description {
 		font-size: 0.55rem;
 		line-height: 16px;
 		max-width: 520px;
 		margin-bottom: 0px;
 	}
 
-	.we-are-content button {
+	.we-gamers-content button {
 		margin-bottom: 15px;
 	}
 
-	.we-are-purpose {
+	.we-gamers-purpose {
 		font-size: 0.6rem;
 		line-height: 20px;
 	}
 
-	.unleash {
+	.unleash-text {
 		font-size: 0.9rem;
 		line-height: 25px;
 	}
@@ -873,7 +873,7 @@
 		margin-bottom: 20px;
 	}
 
-	.online-item-container {
+	.online-play-container {
 		flex-direction: column;
 		gap: 10px;
 	}
