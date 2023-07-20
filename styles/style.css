@@ -1,0 +1,141 @@
+/* Google Font Here */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* Universal Tags */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Work Sans', sans-serif;
+}
+
+/* Common Shared Styles */
+
+.side-pad-240 {
+	padding: 0px 240px;
+}
+
+:root {
+	--white: #fff;
+	--pink-primary: #ff42a5;
+	--dark-primary: #0b0223;
+	--dark-secondary: #3c354f;
+	--grey-primary: rgba(11, 2, 35, 0.1);
+	--grey-secondary: #534c64;
+	--red-primary: rgba(246, 28, 13, 1);
+	--blue-primary: #4ec5f7;
+	--linear: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+}
+
+/* navbar start */
+
+.logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	cursor: pointer;
+}
+
+.logo-text {
+	color: #0b0223;
+	font-size: 2.8125rem;
+	font-weight: 700;
+}
+
+.logo-text-g {
+	color: #ff42a5;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 37px;
+	padding-bottom: 37px;
+	background: #fff;
+	box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.nav-links-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 32px;
+}
+
+.nav-links {
+	list-style: none;
+}
+
+.nav-links a {
+	text-decoration: none;
+	color: #3c354f;
+	font-size: 1.125rem;
+	font-weight: 500;
+}
+
+.nav-links:last-child {
+	padding: 16px 24px;
+	border-radius: 8px;
+	background: rgba(11, 2, 35, 0.1);
+	cursor: pointer;
+}
+
+.nav-links:last-child a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+}
+
+.nav-links:last-child i {
+	color: rgba(246, 28, 13, 1);
+	font-size: 30px;
+}
+
+.tiktok-icon img {
+	width: 100%;
+}
+
+.tiktok-icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 24px;
+}
+
+/* navbar end */
+
+/* banner start */
+
+.btn {
+	color: #fff;
+	font-size: 1.25rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	border-radius: 48px;
+	padding: 21px 40px;
+	border: none;
+	cursor: pointer;
+}
+
+.pink-back {
+	background: #ff42a5;
+}
+
+.blue-back {
+	background: #4ec5f7;
+}
+
+.gradient {
+	background: var(--linear);
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+/* banner end */
